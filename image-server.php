@@ -7,7 +7,7 @@
 
 // ==================== 配置部分 ====================
 $config = [
-    'image_dir' => 'images/',          // 图片目录(结尾带斜杠)
+	'image_dir' => 'images/',          // 图片目录(结尾带斜杠)
     'cache_dir' => 'cache/',           // 缓存目录(结尾带斜杠)
     'cache_ttl' => 86400,              // 缓存有效期(秒，默认1天)
     'strict_mode' => false,            // true:严格模式/false:宽松模式(无匹配图片时回退)
@@ -20,7 +20,7 @@ $config = [
 if (!file_exists($config['cache_dir']) && !mkdir($config['cache_dir'], 0755, true)) {
     die('Error: Cannot create cache directory');
 }
-if ($config['enable_logging'] && !file_exists(dirname($config['log_file'])) {
+if ($config['enable_logging'] && !file_exists(dirname($config['log_file']))) {
     mkdir(dirname($config['log_file']), 0755, true);
 }
 
@@ -93,7 +93,7 @@ function getImageInfoWithCache() {
     $cacheFile = $config['cache_dir'] . 'image_info.cache';
     
     // 尝试读取有效缓存
-    if (file_exists($cacheFile) {
+    if (file_exists($cacheFile)) {
         $cacheData = json_decode(file_get_contents($cacheFile), true);
         $cacheValid = false;
         
