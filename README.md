@@ -85,3 +85,18 @@ PHP代码实现根据设备类型（手机/电脑）自动输出合适方向（�
 
 # Demo
 https://pic.022220.xyz/api/auto.php
+
+### 使用建议
+
+1. **直接访问效果**：
+   ```
+   https://example.com/image_delivery.php
+   ```
+   - 浏览器标签页显示`智能图片展示系统`
+   - 页面内容仅显示图片
+
+2. **作为图片引用**：
+   ```html
+   <img src="https://example.com/image_delivery.php" alt="动态图片">
+   ```
+   - 仍作为普通图片工作
