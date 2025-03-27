@@ -90,7 +90,7 @@ PHP代码实现根据设备类型（手机/电脑）自动输出合适方向（�
 
 1. **直接访问效果**：
    ```
-   [https://pic.022220.xyz/api/auto.php](https://pic.022220.xyz/api/auto.php)
+   https://pic.022220.xyz/api/auto.php
    ```
    - 页面内容仅显示图片
 
