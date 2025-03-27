@@ -84,15 +84,14 @@ PHP代码实现根据设备类型（手机/电脑）自动输出合适方向（�
 这个终极版本已经过充分优化，适合生产环境部署，能智能处理各种边缘情况，同时保持良好的性能表现。
 
 # Demo
-https://pic.022220.xyz/api/auto.php
+ [https://example.com/image_delivery.php](https://pic.022220.xyz/api/auto.php)
 
 ### 使用建议
 
 1. **直接访问效果**：
    ```
-   https://example.com/image_delivery.php
+   [https://example.com/image_delivery.php](https://pic.022220.xyz/api/auto.php)
    ```
-   - 浏览器标签页显示`智能图片展示系统`
    - 页面内容仅显示图片
 
 2. **作为图片引用**：
